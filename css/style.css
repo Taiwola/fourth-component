@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+.card{
+    position: relative;
+    top: 120px;
+    left: 408px;
+    border-radius: 8px;
+    height: 832px;
+    width: 672px;
+    background-color: #ffffff;
+    margin-bottom: 220px;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    width: 672px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -1px 10px 5px 0px rgba(191, 191, 191, 0.16);
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+.card2-fluid{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card2-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card2-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.card3-container{
+    padding: 140px 32px;
+}
+
+.card3{
+    display: flex;
+    gap: 8px;
+}
+
+.card3-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card3-text1{
+    background-color: #E0E0E0;
+    padding: 10px;
+    height: 31px;
+    width: 121px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card3-text2{
+    background-color: #E0E0E0;
+    padding: 10px;
+    height: 31px;
+    width: 252px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.card4{
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-top: 72px;
+    align-items: self-end;
+}
+
+
+
+.card4-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card4-text2{
+    background-color: #E0E0E0;
+    padding: 10px;
+    height: 31px;
+    width: 145px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; 
+}
+
+
+.card5{
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-top: 72px;
+    align-items: self-end;
+}
+
+.card5-text1{
+    width: 185px;
+}
+
+
+.card6{
+    display: flex;
+    gap: 8px;
+    padding-top: 72px;
+}
+
+.card7{
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.card7-img1{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.card7-img1 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
